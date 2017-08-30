@@ -1,0 +1,19 @@
+{
+  "name": "car-plates",
+  "version": "1.0.0",
+  "description": "check car plate",
+  "main": "index.js",
+  "scripts": {
+    "test": "./precommit.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "get-plate": "bin/get-plage.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.11.0",
+    "node-horseman": "^3.3.0"
+  }
+}
